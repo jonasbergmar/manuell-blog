@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-900;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-slate-300;
+  }
+
+  a,
+  p,
+  label {
+    @apply text-slate-100;
+  }
+
+  label {
+    @apply font-bold;
+  }
+
+  button {
+    @apply border rounded px-3 py-1;
+  }
+
+  h1 {
+    @apply text-6xl font-bold;
+  }
+  h2 {
+    @apply text-4xl font-semibold;
+  }
+  h3 {
+    @apply text-2xl font-medium;
+  }
+
+  p {
+    @apply text-base font-normal;
+  }
+
+  a {
+    @apply text-xl font-medium;
+  }
+
+  input[type="text"] {
+    @apply rounded border p-2 bg-slate-400;
+  }
+}
